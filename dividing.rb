@@ -3,8 +3,10 @@ def valid_number?(number_string)
 end
 
 numerator = nil
+question_one = ">> Please enter the numerator:"
+
 loop do
-  puts ">> Please enter the numerator:"
+  puts question
   numerator = gets.chomp
 
   break if valid_number?(numerator)

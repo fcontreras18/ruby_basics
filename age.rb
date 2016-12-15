@@ -1,4 +1,4 @@
-puts ">> What is your age in years?"
+your">> What is your age in years?"
 
 input = gets.chomp.to_i
 
